@@ -1,0 +1,81 @@
+settings:
+  raid-duration-minutes: 30
+  registration-duration-minutes: 10
+  life-suppress-hours: 4
+  crystal-hits: 50
+  crystals-to-win: 10
+  max-golden-apples: 5
+  daily-tribute-coins: 10
+  auto-save-minutes: 5
+  min-defenders: 2
+  crystal-material: RESPAWN_ANCHOR
+  crystal-break-commands:
+    - "say Кристалл %crystal% гильдии %guild% разрушен игроком %player%!"
+  suppressed-features:
+    - shops
+    - resource-nodes
+    - guild-menus
+guilds:
+  flame:
+    display-name: "Пламя"
+    color: "&c"
+    warp:
+      world: world
+      x: 100.5
+      y: 64.0
+      z: 100.5
+      yaw: 0.0
+      pitch: 0.0
+    crystals:
+      - { world: world, x: 110, y: 65, z: 110 }
+      - { world: world, x: 120, y: 65, z: 110 }
+      - { world: world, x: 130, y: 65, z: 110 }
+      - { world: world, x: 110, y: 65, z: 120 }
+      - { world: world, x: 120, y: 65, z: 120 }
+      - { world: world, x: 130, y: 65, z: 120 }
+      - { world: world, x: 110, y: 65, z: 130 }
+      - { world: world, x: 120, y: 65, z: 130 }
+      - { world: world, x: 130, y: 65, z: 130 }
+      - { world: world, x: 125, y: 70, z: 125 }
+  wave:
+    display-name: "Волна"
+    color: "&b"
+    warp:
+      world: world
+      x: 200.5
+      y: 64.0
+      z: 200.5
+      yaw: 0.0
+      pitch: 0.0
+    crystals:
+      - { world: world, x: 210, y: 65, z: 210 }
+      - { world: world, x: 220, y: 65, z: 210 }
+      - { world: world, x: 230, y: 65, z: 210 }
+      - { world: world, x: 210, y: 65, z: 220 }
+      - { world: world, x: 220, y: 65, z: 220 }
+      - { world: world, x: 230, y: 65, z: 220 }
+      - { world: world, x: 210, y: 65, z: 230 }
+      - { world: world, x: 220, y: 65, z: 230 }
+      - { world: world, x: 230, y: 65, z: 230 }
+      - { world: world, x: 225, y: 70, z: 225 }
+  shine:
+    display-name: "Сияние"
+    color: "&e"
+    warp:
+      world: world
+      x: 300.5
+      y: 64.0
+      z: 300.5
+      yaw: 0.0
+      pitch: 0.0
+    crystals:
+      - { world: world, x: 310, y: 65, z: 310 }
+      - { world: world, x: 320, y: 65, z: 310 }
+      - { world: world, x: 330, y: 65, z: 310 }
+      - { world: world, x: 310, y: 65, z: 320 }
+      - { world: world, x: 320, y: 65, z: 320 }
+      - { world: world, x: 330, y: 65, z: 320 }
+      - { world: world, x: 310, y: 65, z: 330 }
+      - { world: world, x: 320, y: 65, z: 330 }
+      - { world: world, x: 330, y: 65, z: 330 }
+      - { world: world, x: 325, y: 70, z: 325 }

@@ -1,0 +1,22 @@
+name: GuildRaid
+version: '${project.version}'
+main: ru.guildraid.GuildRaidPlugin
+api-version: '1.21'
+authors: [YourName]
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  guild:
+    description: Главная команда гильдий
+    aliases: [g]
+    usage: /guild
+permissions:
+  guild.member:
+    description: Участник гильдии
+    default: true
+  guild.leader:
+    description: Лидер гильдии
+    default: op
+  guild.admin:
+    description: Админ-команды плагина
+    default: op
